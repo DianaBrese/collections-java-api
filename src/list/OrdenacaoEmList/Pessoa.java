@@ -14,7 +14,7 @@ public class Pessoa implements Comparable<Pessoa> {
 	}
 	
 	public int compareTo(Pessoa p) {
-		return Integer.compare(idade, p.getIdade());
+		return Integer.compare(this.idade, p.getIdade());
 			
 	}
 
